@@ -2,16 +2,17 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'nlosc'
-SITENAME = 'Nlosc'
-SITEURL = ''
+AUTHOR = ''
+SITENAME = ''
+SITESUBTITLE = ''
+SITEURL = 'localhost'
 
 PATH = 'content'
 
-TIMEZONE = 'America/Denver'
+TIMEZONE = 'UTC'
 
 DEFAULT_LANG = 'en'
-
+DEFAULT_DATE_FORMAT = '%B %d, %Y'
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -33,5 +34,8 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+#THEME = ''
+STATIC_PATHS = ['images']
+PLUGINS = ['neighbors']
 
-THEME = "pelican-striped-html5up"
+
